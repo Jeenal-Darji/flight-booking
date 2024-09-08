@@ -1,0 +1,58 @@
+.registration-container {
+   width: 1000px;
+   margin: 0 auto;
+   padding: 20px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+ }
+ 
+.registration-form {
+   display: flex;
+   flex-direction: column;
+ }
+
+
+ .form-group {
+   margin-bottom: 20px;
+   display: flex; /* Add flex display */
+   flex-wrap: wrap; /* Allow items to wrap */
+ }
+ 
+ .inline-fields {
+   width: calc(50% - 5px); /* Set width for inline fields */
+   margin-right: 10px; /* Add margin between inline fields */
+ }
+ 
+ .inline-fields:last-child {
+   margin-right: 0; /* Remove margin from the last inline field */
+ } 
+ 
+ .half-width {
+   width: 50%;
+ }
+ 
+ label {
+   font-weight: bold;
+ }
+ 
+ input {
+   padding: 8px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   width: 100%;
+ }
+
+ .registration-form button[type="submit"] {
+  height: 40px; /* Adjust the height as needed */
+  width: 120px; /* Adjust the width as needed */
+  align-self: center;
+  
+}
+ 
+ .error-message {
+   color: blue;
+   margin-top: 5px;
+   font-weight: bold;
+   text-align: center;
+ }
+ 
