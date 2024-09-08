@@ -1,0 +1,32 @@
+.slideshow-container .carousel-item img {
+    margin-top: 7px; 
+}
+
+.slideshow-container {
+    margin-top: 10px;
+}
+
+.carousel-indicators {
+    bottom: 10px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  display: none;
+}
+
+.carousel-item {
+    transition: none !important; 
+}
+  
+.carousel-item.active {
+    display: block !important; 
+}
+
+.slideshow-container {
+    height: 580px;
+}  
+
+.carousel-item img {
+    height: 580px; 
+}
