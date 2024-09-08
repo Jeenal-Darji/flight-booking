@@ -1,0 +1,125 @@
+body {
+    background-color: rgb(22, 56, 67); /* Set your desired background color */
+  }
+.wrapper3
+{
+    width :1200px;
+    background : white;
+  
+    backdrop-filter : blur(30px);
+    border:3px dashed rgb(11, 3, 3);
+    box-shadow: 0 0 10px black;
+    color : rgb(13, 8, 8);
+    border-radius:10px;
+    padding:30px;
+    height:500px;
+}
+
+.wrapper3 h1{
+    font-size :36px;
+    text-align:center;
+
+}
+.bhead
+{
+    background-color: rgb(121, 130, 137);
+    width: 1000px;
+    
+   
+}
+.a{
+display:flex;
+
+}
+.gap1 {
+    width: 150px; 
+  }
+.b{
+    background-color: rgb(12, 21, 29);
+    width: 1000px;
+    height:350px;
+    
+}
+.b2
+{
+  
+    display:flex;
+    
+}
+.gap {
+    width: 20px; 
+  }
+.b21
+{
+    border:2px solid rgb(11, 3, 3);
+    width:100px;
+    text-align: left;
+    height:80px;
+   margin-Right: '10px';
+}
+
+.b22
+{
+    border:2px solid rgb(11, 3, 3);
+    width:100px;
+    text-align: left;
+    height:80px;
+    margin-right:10px;
+}
+
+.b23
+{
+    border:2px solid rgb(11, 3, 3);
+    width:100px;
+    text-align: left;
+    height:80px;
+   margin-Right: '10px';
+}
+.b24
+{
+    border:2px solid rgb(11, 3, 3);
+    width:100px;
+    text-align: left;
+    height:80px;
+   margin-Right: '10px';
+}
+.b25
+{
+    border:2px solid rgb(11, 3, 3);
+    width:150px;
+    text-align: left;
+    height:80px;
+   margin-Right: '10px';
+}
+
+.c
+{
+    display: flex;
+
+}
+.d{
+    border: 2px;
+    display: flex;
+}
+
+.wrapper3 .p
+{
+    size: 100px;
+}
+
+
+body {
+    background-color: rgb(87, 142, 158);
+  }
+
+
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+   
+  }
+  
+  .item {
+    margin-right: 10px; /* Optional: Add spacing between items */
+  }
