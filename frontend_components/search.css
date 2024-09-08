@@ -1,0 +1,63 @@
+
+.flight-search-container {
+  width: 80vw; /* Increase the maximum width */
+  margin-top: 0px ;
+  padding: 20px;
+  border: 2px solid #fff; /* White border */
+  border-radius: 10px;
+  }
+
+.flight-search-container h2 {
+  margin-bottom: 10px;
+}
+
+.flight-search-container label {
+  display: block;
+  margin-bottom: 10px;
+  text-align: left; /* Align labels to the left */
+}
+
+.flight-search-container input[type="text"],
+.flight-search-container input[type="date"] {
+  width: calc(100% - 22px); /* Adjust input width */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.flight-search-container button {
+  height: 40px; /* Adjust the height as needed */
+width: 120px; /* Adjust the width as needed */
+margin: 0 auto; /* Center the button horizontally */
+display: block; /* Ensure block-level display for centering */
+}
+
+.flight-search-container button:hover {
+  background-color: #0056b3;
+}
+
+
+.flight-search-container div {
+  margin-bottom: 10px;
+}
+
+.flight-search-container div:last-child {
+  margin-bottom: 0;
+}
+
+.form-group {
+  display: flex;
+  justify-content: center;
+}
+
+.form-group label {
+  margin-right: 20px; /* Add some spacing between radio buttons */
+}
+
+.flight-box {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
