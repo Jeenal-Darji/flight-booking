@@ -1,0 +1,50 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #fff; /* White border */
+  border-radius: 10px;
+  padding: 20px;
+  width: 500px; /* Larger login container */
+  margin: auto; /* Center the container */
+}
+
+.login-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  align-self: center;
+}
+
+.login-form {
+  width: 100%; /* Fill the container width */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Increased margin */
+}
+
+.form-label {
+  margin-right: 10px;
+}
+
+.form-input {
+  padding: 10px; /* Increased padding */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%; /* Fill the input width */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.login-form button[type="submit"] {
+  height: 40px; /* Adjust the height as needed */
+  width: 120px; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the button horizontally */
+  display: block; /* Ensure block-level display for centering */
+}
+
+.error-message {
+  color: blue;
+  font-weight: bold;
+  margin-top: 10px; /* Added margin */
+  align-self: center;
+}
